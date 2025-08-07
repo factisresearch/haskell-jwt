@@ -1,7 +1,5 @@
-resolver: nightly-2021-10-07
+resolver: lts-24.3
 
 extra-deps:
-  - aeson-2.0.0.0
-  - lens-aeson-1.1.2
-  - cryptostore-0.2.1.0
-  - doctest-0.20.0
+  - git: https://github.com/factisresearch/cryptostore.git
+    commit: c5a33e3d6331b7d81b5204eb0620561d8f811040
